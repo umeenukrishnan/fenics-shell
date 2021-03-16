@@ -1,0 +1,4 @@
+element = VectorElement("CG", triangle, 1)
+u = TrialFunction(element)
+v = TestFunction(element)
+a = inner(u,v)*dx

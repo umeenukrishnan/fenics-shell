@@ -1,0 +1,4 @@
+element = FiniteElement("N1curl", triangle, 2)
+u = TrialFunction(element)
+v = TestFunction(element)
+a = inner(u,v)*dx

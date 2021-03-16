@@ -1,0 +1,33 @@
+# This is a sample build configuration for Other.
+# Check our guides at https://confluence.atlassian.com/x/5Q4SMw for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+# image: atlassian/default-image:latest
+
+image: quay.io/fenicsproject/stable:2019.1.0.r2
+clone:
+  depth: 5
+
+pipelines:
+  default:
+    - step:
+        caches:
+          - dijitso
+        script:
+          - cd ${BITBUCKET_CLONE_DIR}
+          - pip3 install -r test/requirements-test.txt
+          - python3 setup.py install
+          - cd test/
+          - MPLBACKEND=Agg py.test-3 -v
+          - cd ../
+          - cd demo/
+          - python3 generate-demos.py
+          - cd documented/
+          - MPLBACKEND=Agg py.test-3 -v
+          - cd ../
+          - cd undocumented/
+          - MPLBACKEND=Agg py.test-3 -v
+definitions:
+  caches:
+    dijitso: ~/.cache/dijitso

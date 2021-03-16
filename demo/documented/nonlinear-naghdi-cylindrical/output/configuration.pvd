@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<VTKFile type="Collection" version="0.1">
+  <Collection>
+    <DataSet timestep="0" part="0" file="configuration000000.vtu" />
+    <DataSet timestep="51.282051282051285" part="0" file="configuration000001.vtu" />
+    <DataSet timestep="102.56410256410257" part="0" file="configuration000002.vtu" />
+    <DataSet timestep="153.84615384615387" part="0" file="configuration000003.vtu" />
+    <DataSet timestep="205.12820512820514" part="0" file="configuration000004.vtu" />
+    <DataSet timestep="256.41025641025641" part="0" file="configuration000005.vtu" />
+    <DataSet timestep="307.69230769230774" part="0" file="configuration000006.vtu" />
+    <DataSet timestep="358.97435897435901" part="0" file="configuration000007.vtu" />
+    <DataSet timestep="410.25641025641028" part="0" file="configuration000008.vtu" />
+    <DataSet timestep="461.53846153846155" part="0" file="configuration000009.vtu" />
+    <DataSet timestep="512.82051282051282" part="0" file="configuration000010.vtu" />
+    <DataSet timestep="564.10256410256409" part="0" file="configuration000011.vtu" />
+    <DataSet timestep="615.38461538461547" part="0" file="configuration000012.vtu" />
+    <DataSet timestep="666.66666666666674" part="0" file="configuration000013.vtu" />
+    <DataSet timestep="717.94871794871801" part="0" file="configuration000014.vtu" />
+    <DataSet timestep="769.23076923076928" part="0" file="configuration000015.vtu" />
+    <DataSet timestep="820.51282051282055" part="0" file="configuration000016.vtu" />
+    <DataSet timestep="871.79487179487182" part="0" file="configuration000017.vtu" />
+    <DataSet timestep="923.07692307692309" part="0" file="configuration000018.vtu" />
+    <DataSet timestep="974.35897435897436" part="0" file="configuration000019.vtu" />
+    <DataSet timestep="1025.6410256410256" part="0" file="configuration000020.vtu" />
+    <DataSet timestep="1076.9230769230769" part="0" file="configuration000021.vtu" />
+    <DataSet timestep="1128.2051282051282" part="0" file="configuration000022.vtu" />
+    <DataSet timestep="1179.4871794871794" part="0" file="configuration000023.vtu" />
+    <DataSet timestep="1230.7692307692309" part="0" file="configuration000024.vtu" />
+    <DataSet timestep="1282.0512820512822" part="0" file="configuration000025.vtu" />
+    <DataSet timestep="1333.3333333333335" part="0" file="configuration000026.vtu" />
+    <DataSet timestep="1384.6153846153848" part="0" file="configuration000027.vtu" />
+    <DataSet timestep="1435.897435897436" part="0" file="configuration000028.vtu" />
+    <DataSet timestep="1487.1794871794873" part="0" file="configuration000029.vtu" />
+    <DataSet timestep="1538.4615384615386" part="0" file="configuration000030.vtu" />
+    <DataSet timestep="1589.7435897435898" part="0" file="configuration000031.vtu" />
+    <DataSet timestep="1641.0256410256411" part="0" file="configuration000032.vtu" />
+    <DataSet timestep="1692.3076923076924" part="0" file="configuration000033.vtu" />
+    <DataSet timestep="1743.5897435897436" part="0" file="configuration000034.vtu" />
+    <DataSet timestep="1794.8717948717949" part="0" file="configuration000035.vtu" />
+    <DataSet timestep="1846.1538461538462" part="0" file="configuration000036.vtu" />
+    <DataSet timestep="1897.4358974358975" part="0" file="configuration000037.vtu" />
+    <DataSet timestep="1948.7179487179487" part="0" file="configuration000038.vtu" />
+    <DataSet timestep="2000" part="0" file="configuration000039.vtu" />
+  </Collection>
+</VTKFile>
